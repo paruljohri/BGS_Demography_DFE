@@ -1,22 +1,23 @@
-README
+Towards an Evolutionarily Appropriate Null Model: Jointly Inferring Demography and Purifying Selection
+
 #Contact pjohri1@asu.edu for questions.
 
-This folder has scripts and statistics related to Johri et al 2020 Genetics. Following are the list of contents:
+This folder has scripts and statistics related to Johri et al 2020 Genetics (https://www.genetics.org/content/early/2020/03/09/genetics.119.303002.abstract). Following are the list of contents:
 
 a) Folder: Statistics.zip
-1. Files that have statistics calculated under demographic non-equilibrium:
+1. Files that have statistics calculated for forward simulations with background selection in demographic non-equilibrium:
 	demo_disc_5_SingExon_sumstats_50.txt
 	demo_disc_5_SingExon_sumstats_pi.txt
-2. File that has statistics calculated under demographic equilibrium (500 bp):
+2. File that has statistics calculated for forward simulations with background selection in demographic equilibrium (500 bp):
 	eqm_disc_5_500bp_sumstats_50.txt
 	eqm_disc_5_500bp_sumstats_pi.txt
-3. File that has statistics calculated under demographic equilibrium (1 kb):
+3. File that has statistics calculated for forward simulations with background selection under demographic equilibrium (1 kb):
 	eqm_disc_5_1kb_sumstats_50.txt
 	eqm_disc_5_1kb_sumstats_pi.txt
-4. File that has statistics calculated under demographic equilibrium (5 kb):
+4. File that has statistics calculated for forward simulations with background selection under demographic equilibrium (5 kb):
 	eqm_disc_5_5kb_sumstats_50.txt
 	eqm_disc_5_5kb_sumstats_pi.txt
-5. File that has statistics calculated under demographic equilibrium (10 kb):
+5. File that has statistics calculated for forward simulations with background selection under demographic equilibrium (10 kb):
 	eqm_disc_5_10kb_sumstats_50.txt
 	eqm_disc_5_10kb_sumstats_pi.txt
 
@@ -31,7 +32,7 @@ b)Folder: Dpgp3_data.zip
 	SingleExon94_FixedSubstitutions_phastCons0.8
 
 c)Folder: Scripts
-1. Slim script for demographic non-equilibrium:
+1. Slim script for simulations with background selection and demographic non-equilibrium:
 	demo_disc_5_SingExon_osg.slim
 2. Script to calculate sliding window statistics from simulated data:
 	statistics_slidingwindow_pylibseq_SingExon_osg.py
